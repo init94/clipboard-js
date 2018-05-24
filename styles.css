@@ -1,0 +1,21 @@
+body {
+	font-family: Arial,Helvetica,Roboto,sans-serif;
+	color: #222;
+}
+
+input.clipboard {
+	width: 180px;
+	border: 0;
+}
+
+input.clipboard:focus{
+	outline: none;
+}
+
+input.clipboard::moz-selection{
+	background-color: transparent;
+}
+
+input.clipboard::selection{
+	background-color: transparent;
+}
